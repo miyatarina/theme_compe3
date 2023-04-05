@@ -14,3 +14,27 @@
 | gradient_accumulation_steps | 4 |
 | epochs | 100 |
 | early_stopping_patience | 3 |
+
+### モデル2
+| パラメータ | 実際の値 |
+| ---- | --- |
+| model | luke-japanese-large |
+| seed | 10 |
+| learning_rate | 3e-5 |
+| batch_size | 16 |
+| gradient_accumulation_steps | 4 |
+| epochs | 100 |
+| early_stopping_patience | 3 |
+
+### モデル3
+| パラメータ | 実際の値 |
+| ---- | --- |
+| model | luke-japanese-large |
+| seed | 5 |
+| learning_rate | 3e-5 |
+| batch_size | 16 |
+| gradient_accumulation_steps | 8 |
+| epochs | 100 |
+| early_stopping_patience | 3 |
+
+これらの3つのモデルの出力の平均をとることでアンサンブルを行なった．
